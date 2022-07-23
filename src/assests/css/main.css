@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/*Header*/
+.header {
+  height: 80px;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.headerLogo {
+  color: orange;
+  font-size: 28px;
+  font-weight: 800;
+}
+.headerSearch {
+  display: flex;
+  align-items: center;
+}
+.headerSearch input[type="text"] {
+  width: 50vw;
+  height: 30px;
+  font-size: 22px;
+}
+.headerSearch button {
+  height: 36px;
+  width: 65px;
+  padding: 1px 2px;
+}
+.headerDes {
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+}
+
+/*movie Card*/
+.movieContainer {
+  height: 200px;
+  width: 55%;
+  margin-top: 3px;
+  display: flex;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.movieImage {
+  height: 200px;
+  width: 250px;
+}
+.movieDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 5px;
+  width: 40%;
+}
+.movieName {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+.movieButton {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 2px;
+}
+.addToListButton {
+  background-color: white;
+  border: 1px solid lightgray;
+  color: orange;
+  border-radius: 10px;
+}
+.addToListButton:hover {
+  color: white;
+  background-color: orange;
+}
+.addToFavouriteButton {
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  color: rgb(248, 43, 43);
+  border-radius: 10px;
+}
+.addToFavouriteButton:hover {
+  color: white;
+  background-color: rgb(248, 43, 43);
+}
+
+/*Test*/
+.test {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px;
+}
+.homeButton {
+  height: 40px;
+  margin-left: 10px;
+  font-size: 18;
+  font-weight: 500;
+  border: 1px solid lightgray;
+}
+
+/*Footer*/
+.footer {
+  min-height: 200px;
+  background-color: #121212;
+  color: white;
+}
